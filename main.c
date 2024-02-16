@@ -3,9 +3,11 @@
 
 int main()
 {
-    int x , y , z = x*y;
-    scanf("%d",&x);
-    scanf("%d",&y);
-    printf("%d",z);
-    return 0;
+  int x, y, z;
+  scanf("%c%c%c",&x,&y,&z);
+  if(x==y&&x==z)
+  printf("Won");
+  else
+  printf("Lost");
+  return 0;
 }
