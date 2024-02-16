@@ -1,12 +1,61 @@
 #include <iostream>
 using namespace std;
-    int main(){
-    string first_name , school_name , grade;
+
+class student{
+    public:
     int age;
-    cin>> first_name;
-    cin >>age;
-    cin >>school_name;
-    cin>>grade ;
-    cout<<first_name<<"\t \t"<<age<<"\n"<<school_name<<"\t \t"<<grade;
+    string name;
+    string school;
+
+};
+
+int main()
+{
+    student Eithar;
+    Eithar.age = 16;
+    Eithar.name="Eithar";
+    Eithar.school="STEM";
+    cout<<Eithar.name <<Eithar.age<<Eithar.school;
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+    class student{
+    public:
+    int age;
+    string name;
+    string school;
+    void intr()
+    {
+        cout << name << school << age;
+    }
+};
+
+int main()
+{
+    student Eithar;
+    Eithar.age = 16;
+    Eithar.name="Eithar";
+    Eithar.school="STEM";
+    Eithar.intr();
+    return 0;
+}
+
+
+
+
+
+
+
+
