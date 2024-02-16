@@ -1,17 +1,20 @@
 #include <iostream>
-#include<fstream>
-#include<string>
+
 using namespace std;
+
 int main()
 {
- ofstream information("filename.txt");
- information<<"Name:Eithar+" "+Age:16+" "+nationality:Egyptian";
- information.close();
- string mytext;
- ifstream id("filename,txt");
- while(getline(id,mytext)){
-
- cout<<mytext;
- }
- return 0;
+   try{
+    int father, son;
+    cin>>father>>son;
+    cout<<father,son;
+    if (father>son){
+        cout<<"these ages are possible";
+    }
+    }
+   throw 404;
+else(){
+  catch (...)
+  cout<<"son can't be older than father"
+   }
 }
