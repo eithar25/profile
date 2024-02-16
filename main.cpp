@@ -1,21 +1,17 @@
 #include <iostream>
+#include<fstream>
+#include<string>
 using namespace std;
-
-class student{
-public:
-int age;
-string name;
-string school;
-
-};
-
-
 int main()
 {
-    student Eithar;
-    Eithar.age = 16;
-    Eithar.name="Eithar";
-    Eithar.school="STEM";
-    cout<<Eithar.name <<Eithar.age<<Eithar.school;
-    return 0;
+ ofstream information("filename.txt");
+ information<<"Name:Eithar+" "+Age:16+" "+nationality:Egyptian";
+ information.close();
+ string mytext;
+ ifstream id("filename,txt");
+ while(getline(id,mytext)){
+
+ cout<<mytext;
+ }
+ return 0;
 }
